@@ -1,5 +1,6 @@
 export type Site = {
   website: string;
+  base: string;
   author: string;
   desc: string;
   title: string;
@@ -39,4 +40,5 @@ export type SocialMedia =
   | "Skype"
   | "Steam"
   | "Telegram"
-  | "Mastodon";
+  | "Mastodon"
+  | "Phone";
